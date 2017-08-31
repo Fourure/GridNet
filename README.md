@@ -1,15 +1,22 @@
 # Residual Conv-Deconv Grid Network for Semantic Segmentation
 
-Paper available at : 
+Paper available at : https://arxiv.org/abs/1707.07958
 
 The pretrained model provided (into the folder pretrained) is the one used for the paper's evaluation. 
 The training code is a refactored version of the one that we used for the paper, and has not yet been tested extensively, so feel free to open an issue if you find any problem.
 
+# Video results
+
+A video of our results on the Cityscapes datasets demo videos is avalaible there : https://youtu.be/jQWpbfj5zsE
+
 # Dataset structure
 
-You need to download the Cityscapes dataset 
+You need to download the Cityscapes dataset.
 
 # Use a pretrained model
+
+You can download a pretrained model at : https://storage.googleapis.com/windy-marker-136923.appspot.com/SHARE/GridNet.t7
+Download the pretrained model and put it in the folder pretrained
 
 ```bash
 MODEL="pretrained/GridNet.t7" #Pretrained model
@@ -28,12 +35,14 @@ th train.lua -extraRatio 0 -scaleMin 1 -scaleMax 2.5 -sizeX 400 -sizeY 400 -hfli
 
 If you use this code or these models in your research, please cite:
 
+```
 @article{fourure2017residual,
   title={Residual Conv-Deconv Grid Network for Semantic Segmentation},
   author={Fourure, Damien and Emonet, R{\'e}mi and Fromont, Elisa and Muselet, Damien and Tremeau, Alain and Wolf, Christian},
   journal={arXiv preprint arXiv:1707.07958},
   year={2017}
 }
+```
 
 # License
 
