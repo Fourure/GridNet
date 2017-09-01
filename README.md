@@ -12,6 +12,8 @@ The training code is a refactored version of the one that we used for the paper,
 
 A video of our results on the Cityscapes datasets demo videos is avalaible there : https://youtu.be/jQWpbfj5zsE
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/jQWpbfj5zsE/3.jpg)](https://www.youtube.com/watch?v=jQWpbfj5zsE)
+
 ## Dataset structure
 
 The code is made to train a GridNet with the Cityscapes dataset.
