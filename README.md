@@ -52,7 +52,7 @@ You need to specified which accuracy you want to plot (pixels, class or iou accu
 You can plot several accuracy at the same time.
 
 ```bash
-`./scripts/plot.sh pixels class iou folder_where_the_logs_are
+./scripts/plot.sh pixels class iou folder_where_the_logs_are
 ```
 
 ## Citation
@@ -62,17 +62,17 @@ If you use this code or these models in your research, please cite:
 ```
 @inproceedings{fourure2017gridnet,
   title={Residual Conv-Deconv Grid Network for Semantic Segmentation},
-  author={Fourure, Damien and Emonet, R{\'e}mi and Fromont, Elisa and Muselet, Damien and Neverova, Natalia and Tr{\'e}meau, Alain and Wolf, Christian},
+  author={Fourure, Damien and Emonet, R{\'e}mi and Fromont, Elisa and Muselet, Damien and Tr{\'e}meau, Alain and Wolf, Christian},
   booktitle={Proceedings of the British Machine Vision Conference, 2017},
   year={2017}
 }
 ```
 
-# License
+## License
 
 This code is only for academic purpose. For commercial purpose, please contact us.
 
-# Acknowledgement
+## Acknowledgement
 
 Authors acknowledge the support from the ANR project SoLStiCe (ANR-13-BS02-0002-01).
 We also want to thank NVidia for providing two Titan X GPU.
