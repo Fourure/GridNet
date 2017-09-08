@@ -8,6 +8,10 @@ The pretrained model provided is the one used for the paper's evaluation.
 
 The training code is a refactored version of the one that we used for the paper, and has not yet been tested extensively, so feel free to open an issue if you find any problem.
 
+## Overview
+
+The code is done in Lua using the Torch7 API : http://torch.ch/
+
 ## Video results
 
 A video of our results on the Cityscapes datasets demo videos is avalaible there : https://youtu.be/jQWpbfj5zsE
